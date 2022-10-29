@@ -17,3 +17,5 @@ A função Python **repr**() retorna a representação do objeto em formato de s
 Você deve sempre usar as funções str() e repr(), que chamarão as funções **str** e **repr** subjacentes. Não é uma boa ideia usar essas funções diretamente.
 
 cast para string - Em Python, um inteiro pode ser convertido em uma string usando a função str() integrada. A função str() recebe qualquer tipo de dados python e o converte em uma string. Mas o uso do str() não é a única maneira de fazer isso. Este tipo de conversão também pode ser feito usando a palavra-chave “%s” , a função .format ou a função f-string .
+
+https://discuss.python.org/t/what-is-this-command/9045
