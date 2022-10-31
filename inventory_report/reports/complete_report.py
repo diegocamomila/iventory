@@ -1,3 +1,4 @@
+# obs: material de apoio descrito no arquivo zzzz.md
 from collections import Counter
 from inventory_report.reports.simple_report import SimpleReport
 
