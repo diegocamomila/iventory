@@ -31,3 +31,5 @@ inventory_report/reports/simple_report.py
 inventory_report/reports/complete_report.py
 
     O super() serve para - em uma relação de herança entre uma classe Base e outra Derivada - permitir que a classe Derivada se refira explicitamente à classe Base.
+
+self - https://ealexbarros.medium.com/como-utilizar-o-self-em-python-c03c43ec29a2
