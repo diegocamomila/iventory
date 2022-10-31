@@ -1,5 +1,5 @@
-from inventory_report.reports.colored_report import ColoredReport
-from inventory_report.reports.simple_report import SimpleReport
+# from inventory_report.reports.colored_report import ColoredReport
+# from inventory_report.reports.simple_report import SimpleReport
 
 
 product = [
