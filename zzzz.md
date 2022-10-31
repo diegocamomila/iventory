@@ -33,3 +33,11 @@ inventory_report/reports/complete_report.py
     O super() serve para - em uma relação de herança entre uma classe Base e outra Derivada - permitir que a classe Derivada se refira explicitamente à classe Base.
 
 self - https://ealexbarros.medium.com/como-utilizar-o-self-em-python-c03c43ec29a2
+
+5 - Gere os relatórios através de um arquivo CSV
+xmltodict é um módulo Python que faz com que trabalhar com XML pareça que você está trabalhando com JSON
+https://pypi.org/project/xmltodict/
+https://www.digitalocean.com/community/tutorials/python-xml-to-json-dict
+
+-   DictReader - https://docs.python.org/3/library/csv.html
+-   parse - https://docs.python.org/3.7/library/parser.html - https://pypi.org/project/parse/
