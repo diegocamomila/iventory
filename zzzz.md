@@ -41,3 +41,5 @@ https://www.digitalocean.com/community/tutorials/python-xml-to-json-dict
 
 -   DictReader - https://docs.python.org/3/library/csv.html
 -   parse - https://docs.python.org/3.7/library/parser.html - https://pypi.org/project/parse/
+
+obs: descobri um erro de convençao pesquisar melhor a diferença de clf e self, pois quando usa @clasmethod por convensao usa cls.
