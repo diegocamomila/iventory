@@ -19,3 +19,9 @@ Você deve sempre usar as funções str() e repr(), que chamarão as funções *
 cast para string - Em Python, um inteiro pode ser convertido em uma string usando a função str() integrada. A função str() recebe qualquer tipo de dados python e o converte em uma string. Mas o uso do str() não é a única maneira de fazer isso. Este tipo de conversão também pode ser feito usando a palavra-chave “%s” , a função .format ou a função f-string .
 
 https://discuss.python.org/t/what-is-this-command/9045
+
+simpplereport:
+
+    datetime - https://docs.python.org/3/library/datetime.html
+    ppend - https://www.w3schools.com/python/ref_list_append.asp
+    most_common - https://docs.python.org/3/library/collections.html
