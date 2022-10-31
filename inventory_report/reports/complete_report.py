@@ -5,7 +5,7 @@ from inventory_report.reports.simple_report import SimpleReport
 
 class CompleteReport(SimpleReport):
     @classmethod
-    def generate(products: list):
+    def generate(self, products: list):
         simple_report = super().generate(products)
         companyName = []
         for product in products:
@@ -13,6 +13,6 @@ class CompleteReport(SimpleReport):
         companyName_stock = "Produtos estocados por empresa:\n"
         companyName = Counter(companyName).most_common()
         for company in companyName:
-            companyName_stock += f" {company[0]}: {company[1]}\n"
+            companyName_stock += f"- {company[0]}: {company[1]}\n"
 
         return f"{simple_report}\n" f"{companyName_stock}"
