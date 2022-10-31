@@ -20,8 +20,14 @@ cast para string - Em Python, um inteiro pode ser convertido em uma string usand
 
 https://discuss.python.org/t/what-is-this-command/9045
 
-simpplereport:
+3 - Gerar a versão simplificada do relatório
+inventory_report/reports/simple_report.py
 
     datetime - https://docs.python.org/3/library/datetime.html
-    ppend - https://www.w3schools.com/python/ref_list_append.asp
+    apend - https://www.w3schools.com/python/ref_list_append.asp
     most_common - https://docs.python.org/3/library/collections.html
+
+4 - Gerar a versão completa do relatório
+inventory_report/reports/complete_report.py
+
+    O super() serve para - em uma relação de herança entre uma classe Base e outra Derivada - permitir que a classe Derivada se refira explicitamente à classe Base.
