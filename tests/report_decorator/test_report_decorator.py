@@ -16,4 +16,4 @@ product = [
 
 
 def test_decorar_relatorio():
-    # Seu teste deve ser escrito aqui
+    pass  # Seu teste deve ser escrito aqui
