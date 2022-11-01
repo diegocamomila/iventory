@@ -19,8 +19,8 @@ def test_decorar_relatorio():
     report = ColoredReport(SimpleReport).generate(product)
     expected_response = (
         "\x1b[32mData de fabricação mais antiga:"
-        "\x1b[0m \x1b[36m2022-05-04\x1b[0m\n\x1b[32mData de validade mais "
-        "próxima:\x1b[0m \x1b[36m2023-02-09\x1b[0m\n\x1b[32mEmpresa com mais "
+        "\x1b[0m \x1b[36m2021-02-18\x1b[0m\n\x1b[32mData de validade mais "
+        "próxima:\x1b[0m \x1b[36m2023-09-17\x1b[0m\n\x1b[32mEmpresa com mais "
         "produtos:\x1b[0m \x1b[31mTarget Corporation\x1b[0m"
     )
     assert report == expected_response
