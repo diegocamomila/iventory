@@ -5,7 +5,7 @@ from inventory_report.reports.simple_report import SimpleReport
 
 class CompleteReport(SimpleReport):
     @classmethod
-    def generate(self, products: list):
+    def generate(cls, products: list):
         simple_report = super().generate(products)
         companyName = []
         for product in products:
