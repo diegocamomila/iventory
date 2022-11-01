@@ -4,7 +4,7 @@ import xmltodict
 
 class XmlImporter(Importer):
     @classmethod
-    def import_data(path):
+    def import_data(cls, path):
         if path.endswith(".xml"):
             with open(path) as file:
                 xmldict = xmltodict.parse(file.read())

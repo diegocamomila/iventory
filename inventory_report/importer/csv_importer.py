@@ -1,10 +1,10 @@
 import csv
-from .importer import Importer
+from inventory_report.importer.importer import Importer
 
 
 class CsvImporter(Importer):
     @classmethod
-    def import_data(path):
+    def import_data(cls, path):
         if path.endswith(".csv"):
             with open(path, encoding="utf-8") as file:
                 file_reader = csv.DictReader(
