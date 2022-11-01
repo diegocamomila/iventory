@@ -8,24 +8,29 @@ import json as JsonImporter
 
 
 class InventoryRefactor:
-    @classmethod
+    def __init__(self, importer):
+        self.importer = importer
+        self.data = []
+
     def import_data(self, path, type):
-        newReport = []
         if ".csv" in path:
             with open(path, encoding="utf-8") as file:
                 report = CsvImporter.DictReader(
                     file, delimiter=",", quotechar='"'
                 )
-                newReport = list(report)
+                self.data = list(report)
         if ".xml" in path:
             with open(path) as file:
                 report = XmlImporter.parse(file.read())
-                newReport = list(report["dataset"]["record"])
+                self.data = list(report["dataset"]["record"])
         if ".json" in path:
             with open(path) as file:
                 report = JsonImporter.load(file)
-                newReport = list(report)
+                self.data = list(report)
         if type == "simples":
-            return SimpleReport.generate(newReport)
+            return SimpleReport.generate(self.data)
         else:
-            return CompleteReport.generate(newReport)
+            return CompleteReport.generate(self.data)
+
+    def __iter__(self):
+        return InventoryIterator(self.data)
